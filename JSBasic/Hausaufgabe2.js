@@ -1,22 +1,19 @@
 //switch
+const averageGrade = 79
 
-const averageGrade = 79;
-const grade = Math.floor(averageGrade / 10); // 79 → 7
-
-switch (grade) {
-  case 10:
-  case 9:
-    console.log("Відмінно");
-    break;
-  case 8:
-    console.log("Дуже добре");
-    break;
-  case 7:
-    console.log("Добре");
-    break;
-  case 6:
-    console.log("Задовільно");
-    break;
-  default:
-    console.log("Незадовільно");
+switch (true) {
+case averageGrade < 60:
+console.log("Незадовільно");
+break;
+case averageGrade <= 70: 
+console.log("Задовільно");
+break;
+case averageGrade <= 80: 
+console.log("Добре");
+break;
+case averageGrade <= 90: 
+console.log("Дуже добре");
+break;
+default:
+console.log("Відмінно");
 }
