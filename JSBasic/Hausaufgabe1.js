@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+// Function Declaration
+function calcRectangleArea1(width, height) {
+  return width * height;
+}
+console.log('Function Declaration:', calcRectangleArea1(5, 10));
+
+// Function Expression
+const calcRectangleArea2 = function(width, height) {
+  return width * height;
+};
+console.log('Function Expression:', calcRectangleArea2(5, 10));
+
+// Arrow Function
+const calcRectangleArea3 = (width, height) => width * height;
+console.log('Arrow Function:', calcRectangleArea3(5, 10));
+=======
 //if/else
 //Завдання 1: Визначення рівня успішності студента
 //Студентам потрібно визначити свій рівень успішності за оцінками, які вони отримали за курс. Напишіть програму, яка допоможе студентам визначити свій рівень успішності на основі середньої оцінки.
@@ -21,3 +38,4 @@ if (averageGrade < 60) {
 } else {
   console.log("Відмінно");
 }
+>>>>>>> main

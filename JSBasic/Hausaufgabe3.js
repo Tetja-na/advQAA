@@ -1,13 +1,16 @@
-const number = 8;
+function checkOrder(available, ordered) {
+  if (ordered === 0) {
+    console.log("Your order is empty");
+    return;
+  } 
+ if (ordered > available) {
+    console.log("Your order is too large, we don't have enough goods");
+    return;
+  }
+    console.log("Your order is accepted");
+  }
 
-console.log("Таблиця множення (for):");
-for (let i = 1; i <= 10; i++) {
-  console.log(`${number} x ${i} = ${number * i}`);
-}
-
-console.log("\nТаблиця множення (while):");
-let j = 1;
-while (j <= 10) {
-  console.log(`${number} x ${j} = ${number * j}`);
-  j++;
-}
+checkOrder(100,0);// Your order is empty
+checkOrder(100,150);// Your order is too large, we don’t have enough goods.
+checkOrder(100,50);// Your order is accepted
+    
