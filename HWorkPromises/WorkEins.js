@@ -1,5 +1,7 @@
 function saySmth(car, name) {
-  console.log(`${car} ${name}:)`);
+  setTimeout(() => {
+    console.log(car);
+  }, name);
 }
 
-setTimeout(saySmth, 2000, 'Renault', 'Captur');
+saySmth('Renault Captur', 2000);

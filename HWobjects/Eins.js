@@ -1,8 +1,8 @@
 const student = {
-  firstName: "Tetiana",
-  lastName: "Gruenert",
-  age: 38,
-  courses: ["Програмування", "Quality Assurance Engineer Automation"],
+	firstName: 'Tetiana',
+	lastName: 'Gruenert',
+	age: 38,
+	courses: ['Програмування', 'Quality Assurance Engineer Automation'],
 };
 
-console.log(student); 
+console.log(student);
