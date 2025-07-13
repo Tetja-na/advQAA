@@ -28,15 +28,5 @@
 	},
 	"dependencies": {
 		"chalk": "^5.4.1"
-	},
-<<<<<<< HEAD
-    "extends": ["airbnb-base", "prettier"],
-    "plugins": ["prettier"],
-    "rules": {
-      "prettier/prettier": "error"
-  
-  }
-=======
-	"keywords": []
->>>>>>> ecae4a0 (New_Commit)
+	}
 }
