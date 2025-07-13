@@ -1,7 +1,7 @@
 function countdown(num) {
-    console.log(num);
-  if (num<=0) return;
-  countdown(num - 1)
-  } 
+	console.log(num);
+	if (num <= 0) return;
+	countdown(num - 1);
+}
 
-  countdown(8);
+countdown(8);
