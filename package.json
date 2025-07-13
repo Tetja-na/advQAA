@@ -17,8 +17,11 @@
 	},
 	"homepage": "https://github.com/Tetja-na/advQAA#readme",
 	"devDependencies": {
-		"@eslint/js": "^9.30.1",
+		"@eslint/js": "^9.31.0",
 		"axios": "^1.9.0",
+		"eslint": "^9.31.0",
+		"eslint-config-prettier": "^10.1.5",
+		"eslint-plugin-prettier": "^5.5.1",
 		"globals": "^16.3.0",
 		"jest": "^30.0.0",
 		"prettier": "^3.6.2"
@@ -26,10 +29,14 @@
 	"dependencies": {
 		"chalk": "^5.4.1"
 	},
+<<<<<<< HEAD
     "extends": ["airbnb-base", "prettier"],
     "plugins": ["prettier"],
     "rules": {
       "prettier/prettier": "error"
   
   }
+=======
+	"keywords": []
+>>>>>>> ecae4a0 (New_Commit)
 }
