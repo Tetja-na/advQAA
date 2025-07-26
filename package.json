@@ -1,4 +1,39 @@
 {
+	"name": "advqaa",
+	"version": "1.0.0",
+	"description": "for HomeWork",
+	"main": "index.js",
+	"scripts": {
+		"prepare": "husky install"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Tetja-na/advQAA.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Tetja-na/advQAA/issues"
+	},
+	"homepage": "https://github.com/Tetja-na/advQAA#readme",
+	"devDependencies": {
+		"@eslint/js": "^9.31.0",
+		"axios": "^1.9.0",
+		"eslint": "^9.31.0",
+		"eslint-config-prettier": "^10.1.5",
+		"eslint-plugin-prettier": "^5.5.1",
+		"globals": "^16.3.0",
+		"husky": "^8.0.0",
+		"jest": "^30.0.0",
+		"lint-staged": "^16.1.2",
+		"prettier": "^3.6.2"
+	},
+	"dependencies": {
+		"chalk": "^5.4.1"
+	},
+	  "lint-staged": {
+    "*.js": ["eslint --fix", "prettier --write"]
+=======
   "name": "advqaa",
   "version": "1.0.0",
   "description": "for HomeWork",
