@@ -15,12 +15,12 @@
   "bugs": {
     "url": "https://github.com/Tetja-na/advQAA/issues"
   },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "prettier --write"
-    ]
-  },
+ // "lint-staged": {
+  //  "*.js": [
+  //    "eslint --fix",
+   //   "prettier --write"
+   // ]
+  //},
   "homepage": "https://github.com/Tetja-na/advQAA#readme",
   "devDependencies": {
     "@eslint/js": "^9.31.0",
